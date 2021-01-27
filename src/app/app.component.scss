@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: 100%;
+
+    .endpoint-form {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding-right: 1rem;
+
+        .required {
+            color: red;
+        }
+    }
+    
+    .endpoint-output {
+        margin: 1rem;
+
+        div {
+            border: 1px solid gray;
+            border-radius: .5rem;
+            padding: 1rem;
+            
+            code {
+                white-space: pre;
+            }
+        }
+    }
+}

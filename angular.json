@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "endpoints"
+  "defaultProject": "endpoints",
+  "cli": {
+    "analytics": "43afac73-0831-4b1f-8abf-4f433e09a468"
+  }
 }
